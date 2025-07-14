@@ -4,7 +4,7 @@
 
 # Alpha Satellite Elements
 
-## Extract all elements where column 7 is labeled "satellite"
+### Extract all elements where column 7 is labeled "satellite"
 awk 'tolower($7) == "satellite"' chr6_RepeatMasker.filtered.bed > alpha_satellite_only.bed
 
 ## Then further restrict to alpha satellites labeled with ALR in column 4
