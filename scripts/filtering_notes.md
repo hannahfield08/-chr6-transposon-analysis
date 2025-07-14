@@ -32,12 +32,8 @@ awk '$8 ~ /SVA/'  chr6_RepeatMasker.filtered.bed > SVA_elements.bed
 # Final active TE filtering with corrected HERV-K handling
 
 awk '
-  ## Alu (SINE)
-  toupper($7)=="SINE"        && toupper($4) ~ /^ALU/    { print; next }
-  ## LINE-1
-  toupper($7)=="LINE"        && toupper($4) ~ /^L1/     { print; next }
-  ## SVA
-  toupper($7)=="RETROPOSON"  && toupper($4) ~ /^SVA/    { print; next }
-  ## HERV-K (LTR, labeled as ERVK)
-  toupper($7)=="LTR"         && toupper($8)=="ERVK"     { print; next }
+toupper($7)=="SINE" && toupper($4) ~ /^ALU/ { print; next }
+toupper($7)=="LINE" && toupper($4) ~ /^L1/ { print; next }
+toupper($7)=="RETROPOSON" && toupper($4) ~ /^SVA/ { print; next }
+toupper($7)=="LTR" && toupper($8)=="ERVK" { print; next }
 ' chr6_RepeatMasker.filtered.bed > chr6_active_transposons.bed
