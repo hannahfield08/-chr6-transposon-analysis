@@ -10,8 +10,14 @@ Analysis of different types and numbers of transposon insertions within the alph
 - Compare insertion patterns across cenhaps
 
 ## Files
-- `RepeatMasker.filtered.bed`: Source data
-- `active_transposons.bed`: Final filtered transposons (Alu, L1, SVA, HERV-K)
-- `alpha_satellite.bed`: ALR satellite-only regions
-- Individual `.bed` files for each transposon type
-- Filtering commands documented in `scripts/filtering_notes.txt`
+
+All project data files are stored in the [`chr6_data`](chr6_data/) folder:
+
+- RepeatMasker annotations: [Download](chr6_data/RepeatMasker.filtered.bed)
+- Combined filtered active transposons: [Download](chr6_data/active_transposons.bed)
+- Alu (SINE) elements: [Download](chr6_data/Alu_elements.bed)
+- LINE-1 elements: [Download](chr6_data/L1_elements.bed)
+- SVA elements: [Download](chr6_data/SVA_elements.bed)
+- HERV-K (ERVK-labeled) LTRs: [Download](chr6_data/HERVK.bed)
+- Alpha-satellite region of chr6: [Download](chr6_data/alpha_satellite.bed)
+- Filtering documentation and commands: [Download](scripts/filtering_notes.md)
