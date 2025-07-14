@@ -14,7 +14,7 @@ Analysis of different types and numbers of transposon insertions within the alph
 All project data files are stored in the [`chr6_data`](chr6_data/) folder:
 
 - RepeatMasker annotations: [Download](chr6_data/RepeatMasker.filtered.bed)
-- Combined filtered active transposons: [Download](chr6_data/active_transposons.bed)
+- Active transposons: [Download](chr6_data/active_transposons.bed)
 - Alu (SINE) elements: [Download](chr6_data/Alu_elements.bed)
 - LINE-1 elements: [Download](chr6_data/L1_elements.bed)
 - SVA elements: [Download](chr6_data/SVA_elements.bed)
