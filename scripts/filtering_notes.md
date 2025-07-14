@@ -1,7 +1,7 @@
 # Filtering commands used in chr6 transposon analysis
-# Goal: Filter and organize different DNA elements from the original RepeatMasker file.
+#Goal: Filter and organize different DNA elements from the original RepeatMasker file.
 
-# Alpha Satellite Elements
+##Alpha Satellite Elements
 
 # Extract all elements where column 7 is labeled "satellite"
 awk 'tolower($7) == "satellite"' chr6_RepeatMasker.filtered.bed > alpha_satellite_only.bed
