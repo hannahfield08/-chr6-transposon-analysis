@@ -24,7 +24,7 @@ All project data files are stored in the [`chr6_data`](chr6_data/) folder:
 - Transposons in alpha satellites: [Download](chr6_data/transposons_in_asat.bed)
 - Repeat family counts per sample: [Download](chr6_data/repeat_family_counts_per_sample.csv)
 
-All scripts are stored in the [`scripts/`](scripts/) folder:
+All scripts are stored in the [`scripts`](scripts/) folder:
 
 - Filtering notes: [filtering_notes.md](scripts/filtering_notes.md)
 - Shell script to intersect ASATs and TEs using BEDTools: [transposon_asat_overlap_bedtools.sh](scripts/transposon_asat_overlap_bedtools.sh)
