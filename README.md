@@ -1,5 +1,5 @@
 # chr6-transposon-analysis
-Analysis of different types and numbers of transposon insertions within the alpha-satellite region in chromosome 6 across different cenhaps. 
+Analysis of different types and numbers of transposon insertions within the alpha-satellite region in chromosome 6 across 10 different cenhaps (samples). 
 
 ## Contents
 
@@ -20,4 +20,12 @@ All project data files are stored in the [`chr6_data`](chr6_data/) folder:
 - SVA elements: [Download](chr6_data/SVA_elements.bed)
 - HERV-K (ERVK-labeled) LTRs: [Download](chr6_data/HERVK.bed)
 - Alpha-satellite region of chr6: [Download](chr6_data/alpha_satellite.bed)
-- Filtering documentation and commands: [Download](scripts/filtering_notes.md)
+- Merged alpha-satellite regions: [Download](chr6_data/alpha_satellite_merged.bed)
+- Transposons in alpha satellites: [Download](chr6_data/transposons_in_asat.bed)
+- Repeat family counts per sample: [Download](chr6_data/repeat_family_counts_per_sample.csv)
+
+All scripts are stored in the [`scripts/`](scripts/) folder:
+
+- Filtering notes: [filtering_notes.md](scripts/filtering_notes.md)
+- Shell script to intersect ASATs and TEs using BEDTools: [transposon_asat_overlap_bedtools.sh](scripts/transposon_asat_overlap_bedtools.sh)
+- Python script for counting transposons: [count_transposons.py](scripts/count_transposons.py)
