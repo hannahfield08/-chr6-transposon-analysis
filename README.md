@@ -29,3 +29,7 @@ All scripts are stored in the [`scripts`](scripts/) folder:
 - Filtering notes: [filtering_notes.md](scripts/filtering_notes.md)
 - Shell script to intersect ASATs and TEs using BEDTools: [transposon_asat_overlap_bedtools.sh](scripts/transposon_asat_overlap_bedtools.sh)
 - Python script for counting transposons: [count_transposons.py](scripts/count_transposons.py)
+
+## Figures
+
+[View all figures here](figures.md)
