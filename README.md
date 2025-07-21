@@ -32,4 +32,4 @@ All scripts are stored in the [`scripts`](scripts/) folder:
 
 ## Figures
 
-[View all figures here](figures.md)
+[View all figures here](figures)
